@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+</head>
+<body>
+
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            Diário da UNI7
+        </a>
+    </div>
+</nav>
+
+<div class="container" id="estoque">
+</div>
+
+<div class="container">
+    <form>
+        <div class="mb-3">
+            <label for="nome" class="form-label">Título</label>
+            <input type="text" class="form-control" id="nome" name="nome"/>
+        </div>
+        <div class="mb-3">
+            <label for="fabricante" class="form-label">Autor</label>
+            <input type="text" class="form-control" id="fabricante" name="fabricante"/>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="quantidade">Conteúdo</label>
+            <input type="number" class="form-control" id="quantidade" name="quantidade"/>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="preco">Conteúdo</label>
+            <input type="number" class="form-control" id="preco" name="preco"/>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="submeterFormulario()">Cadastrar</button>
+    </form>
+</div>
+
+<script src="js/script.js"></script>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+        integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+        crossorigin="anonymous"></script>
+</body>
+</html>
